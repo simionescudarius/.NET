@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle" style="width: 100%; margin-left: 0%;">
+        <table class="table table-striped custab">
+            <thead>
+                <button type="button" class="btn btn-primary btn-xs pull-right" data-toggle="modal" data-target="#addNewBookPopup"><b>+ </b>Add new book</button>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author first name</th>
+                    <th>Author last name</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            @foreach (var item in ViewBag.AllBooks) {
+                <tr>
+                    <td>@item.carteId</td>
+                    <td>@item.titlu</td>
+                    <td>@item.AutorDto.nume</td>
+                    <td>@item.AutorDto.prenume</td>
+                    <td>@item.GenDto.descriere</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<div id="addNewBookPopup" class="modal fade" role="dialog">
+    <div class="modal-dialog" style="height: 52%; margin-top: 15%;">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="height: 100%">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="text-align: center">Buy books menu</h4>
+            </div>
+
+            <div class="modal-body" style="height: 66%">
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="title">Title:</label>
+                    <div class="col-md-5">
+                        <input id="titleInput" name="title" type="text" placeholder="Title" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="authorFirstName" style="margin-top: 2%;">Author first name:</label>
+                    <div class="col-md-5">
+                        <input id="authorFirstName" name="authorFirstName" type="text" placeholder="Author first name" class="form-control input-md" required="" style="margin-top: 3%;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="authorLastName" style="margin-top: 2%;">Author last name:</label>
+                    <div class="col-md-5">
+                        <input id="authorLastName" name="authorLastName" type="text" placeholder="Author last name" class="form-control input-md" required="" style="margin-top: 3%;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="gender" style="margin-top: 2%;">Gender:</label>
+                    <div class="col-md-5">
+                        <input id="bookGender" name="bookGender" type="text" placeholder="Gender" class="form-control input-md" required="" style="margin-top: 3%;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="count" style="margin-top: 2%;">Count:</label>
+                    <div class="col-md-5">
+                        <input id="bookCount" name="bookCount" type="text" placeholder="Count" class="form-control input-md" required="" style="margin-top: 3%; width:33%">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-success" data-dismiss="modal" onclick="addItem()">Confirm</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>

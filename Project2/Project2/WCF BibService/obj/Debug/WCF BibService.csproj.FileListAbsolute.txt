@@ -1,0 +1,11 @@
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\WCF BibService.dll
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\WCF BibService.pdb
+C:\Faculty\.NET\Project2\Project2\WCF BibService\obj\Debug\WCF BibService.csprojResolveAssemblyReference.cache
+C:\Faculty\.NET\Project2\Project2\WCF BibService\obj\Debug\WCF BibService.csproj.CoreCompileInputs.cache
+C:\Faculty\.NET\Project2\Project2\WCF BibService\obj\Debug\WCF BibService.dll
+C:\Faculty\.NET\Project2\Project2\WCF BibService\obj\Debug\WCF BibService.pdb
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\BibApi.dll
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\EntityFramework.dll
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\BibApi.pdb
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\BibApi.dll.config
+C:\Faculty\.NET\Project2\Project2\WCF BibService\bin\Debug\EntityFramework.xml

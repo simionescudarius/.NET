@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "User Loan";
+}
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle" style="width: 100%; margin-left: 0%;">
+        <table class="table table-striped custab">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author first name</th>
+                    <th>Author last name</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            @foreach (var item in ViewBag.UserBooks) {
+                <tr>
+                    <td>@item.carteId</td>
+                    <td>@item.titlu</td>
+                    <td>@item.AutorDto.nume</td>
+                    <td>@item.AutorDto.prenume</td>
+                    <td>@item.GenDto.descriere</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

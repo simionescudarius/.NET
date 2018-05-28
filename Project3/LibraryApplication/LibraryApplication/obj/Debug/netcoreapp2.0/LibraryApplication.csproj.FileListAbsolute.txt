@@ -1,0 +1,16 @@
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.csproj.CoreCompileInputs.cache
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.AssemblyInfoInputs.cache
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.AssemblyInfo.cs
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.dll
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.pdb
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\LibraryApplication.deps.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\LibraryApplication.runtimeconfig.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\LibraryApplication.runtimeconfig.dev.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\LibraryApplication.dll
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\LibraryApplication.pdb
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\obj\Debug\netcoreapp2.0\LibraryApplication.csprojResolveAssemblyReference.cache
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\Debug\netcoreapp2.0\LibraryApplication.deps.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\Debug\netcoreapp2.0\LibraryApplication.runtimeconfig.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\Debug\netcoreapp2.0\LibraryApplication.runtimeconfig.dev.json
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\Debug\netcoreapp2.0\LibraryApplication.dll
+C:\Faculty\.NET\Project3\LibraryApplication\LibraryApplication\bin\Debug\netcoreapp2.0\LibraryApplication.pdb

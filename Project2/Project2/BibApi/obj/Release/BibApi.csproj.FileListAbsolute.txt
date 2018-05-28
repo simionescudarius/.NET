@@ -1,0 +1,10 @@
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\BibApi.dll.config
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\BibApi.dll
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\BibApi.pdb
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\EntityFramework.dll
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\System.Data.Entity.Repository.dll
+C:\Faculty\PROIECT_2\BibApi\BibApi\bin\Release\EntityFramework.xml
+C:\Faculty\PROIECT_2\BibApi\BibApi\obj\Release\BibApi.csprojResolveAssemblyReference.cache
+C:\Faculty\PROIECT_2\BibApi\BibApi\obj\Release\BibApi.csproj.CoreCompileInputs.cache
+C:\Faculty\PROIECT_2\BibApi\BibApi\obj\Release\BibApi.dll
+C:\Faculty\PROIECT_2\BibApi\BibApi\obj\Release\BibApi.pdb

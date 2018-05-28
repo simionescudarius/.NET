@@ -1,0 +1,29 @@
+Simionescu Darius-Constantin, 3B4, 16.05.2018.
+
+Controllers
+-----------
+
+In acest pachet am creat 2 controlere:
+	- BookController
+	- ReaderController
+
+Aceste clase se ocupa cu expunerea unor anumite end-point-uri pe care un client ce foloseste protocolul HTTP le poate accesa
+prin verbele oferite de HTTP: GET, POST, PUT, DELETE, etc..
+
+Fiecare metoda din aceste controlere este adnotata corespunzator tipului de request pe care-l asteapta [HtppGet] respectiv [HttpPost],
+si dupa caz, fiecare metoda are sau nu parametri, precum si o ruta secifica, in cazul in care nu este cea default.
+
+Models
+------------
+
+In acest pachet sunt modelele folosite ca si parametri de metodele ce se afla in controlere. Pe aceste modele se pot pune
+adnotari specifice pentru a face validarile mai usor.
+
+Views
+------------
+
+Ca si parte de view, am folosit framework-ul Razor (extensia .cshtml), iar pentru a accesa metodele expuse de controlere, am folosit
+call-uri de tip Ajax. In fisierul "site.js" se gasesc scripturile de JavaScript ce initiaza call-urile la end-point-uri.
+
+Aditional, pentru design, am folosit framework-ul Bootstrap 4. ( https://getbootstrap.com/ )
+

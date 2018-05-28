@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibApi", "BibApi\BibApi.csproj", "{72E28466-A31F-49C2-918B-6721C45F2AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E28466-A31F-49C2-918B-6721C45F2AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E28466-A31F-49C2-918B-6721C45F2AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E28466-A31F-49C2-918B-6721C45F2AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E28466-A31F-49C2-918B-6721C45F2AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93DF1807-59B5-4AEB-8DEF-FF3440DB1709}
+	EndGlobalSection
+EndGlobal

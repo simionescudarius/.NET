@@ -1,0 +1,51 @@
+Simionescu Darius-Constantin, 3B4, 02.05.2018.
+
+Proiectul WCF BibService (Serviuciu WCF).
+-------------------------
+
+DTO-urile(Data transfer object) folosite pentru a transfera prin retea datele dintre client si server, sunt:
+	- AutorDTO
+	- CarteDTO
+	- CititorDTO
+	- GenDTO
+	- ImprumutDTO
+	- ReviewDTO
+
+Aceste clase sunt adnotate cu [DataContract] ce specifica faptul ca aceasta clasa o sa fie serializata, iar fiecare caracteristica a lor are adnotarea de [DataMember] ce specifica
+faptul ca aceasta caracteristica face parte din clasa data contract si va fi serializata o data cu ea.
+
+
+In pachetul "Service" am adaugat interfetele:
+	- IBookService
+	- ILoanService
+	- IReaderService
+	- IReviewService
+ce sunt adnotate cu [ServiceContract], ceea ce inseamna ca acea interfata defineste "contractul" din WCF, iar fiecare metoda din interfete este adnotata cu [OperationContract], ceea
+ce inseamna ca acea metoda face parte din "contract" si va fi expusa in WCF.
+
+Clasa "LibraryService" ce implementeaza fiecare interfata specificata mai sus.
+
+In pachetul "Transformers" am adaugat cate o clasa ce se ocupa cu maparea din DTO in Model si invers, fiecare entitate avand cate un transformer(mapper).
+
+
+Proiectul WCF host (HOST).
+-------------------------
+
+Contine fisierul de configurare App.config, unde se gasesc configurarile pentru EntityFramework si pentru fiecare service expus.
+Fiecare tag "<service>" defineste un serviciu expus, acesta contine un "<endpoint>" catre contractul definit anterior. Aici exista cate un tag "<service>" pentru fiecare serviciu expus.
+
+Adresa fiecarui service se compune din adresa absoluta + adresa relativa, in cazul meu "http://localhost:8080/" ce este definit in "<host>" + adresa fiecarui service: EX: "<endpoint address="LoanService" "
+																		Adresa finala fiind: http://localhost:8080/LoanService
+
+Tot in acest proiect, in metoda Main am instantiat un obiect de tipul ServiceHost, ce primeste ca si paramentru tipul clasei ce implementeaza interfetele(contractele) definite mai sus.
+
+
+Proiectul WindowsForms (Clientul)
+-------------------------
+
+Acest proiect contine interfata grafica, clasele specifice si cel mai important, fisierele "App.config" + clasa "proxy.cs".
+Aceste fisiere sunt generate automat de "svcutil".
+In fisierul "App.config" sunt definite endpoint-urile unde se fac request-urile, iar in clasa "proxy.cs" se gasesc clasele partiale "LoanServiceClient" de exemplu, ce sunt instantiate
+in client si mai apoi folosite pentru a comunica cu serviciul "LoanService" in acest caz.
+
+Fata de primul proiect, in care foloseam Modelele, de aceasta data se folosesc DTO-uri.

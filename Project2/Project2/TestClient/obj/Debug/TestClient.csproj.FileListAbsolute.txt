@@ -1,0 +1,7 @@
+C:\Faculty\.NET\Project2\Project2\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+C:\Faculty\.NET\Project2\Project2\TestClient\bin\Debug\TestClient.exe.config
+C:\Faculty\.NET\Project2\Project2\TestClient\bin\Debug\TestClient.exe
+C:\Faculty\.NET\Project2\Project2\TestClient\bin\Debug\TestClient.pdb
+C:\Faculty\.NET\Project2\Project2\TestClient\obj\Debug\TestClient.exe
+C:\Faculty\.NET\Project2\Project2\TestClient\obj\Debug\TestClient.pdb
+C:\Faculty\.NET\Project2\Project2\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache

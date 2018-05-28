@@ -1,0 +1,14 @@
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\WCF host.exe
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\WCF host.pdb
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\WCF BibService.dll
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\BibApi.dll
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\EntityFramework.dll
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\WCF BibService.pdb
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\BibApi.pdb
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\BibApi.dll.config
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\EntityFramework.xml
+C:\Faculty\.NET\Project2\Project2\WCF host\obj\Debug\WCF host.csprojResolveAssemblyReference.cache
+C:\Faculty\.NET\Project2\Project2\WCF host\obj\Debug\WCF host.csproj.CoreCompileInputs.cache
+C:\Faculty\.NET\Project2\Project2\WCF host\obj\Debug\WCF host.exe
+C:\Faculty\.NET\Project2\Project2\WCF host\obj\Debug\WCF host.pdb
+C:\Faculty\.NET\Project2\Project2\WCF host\bin\Debug\WCF host.exe.config
